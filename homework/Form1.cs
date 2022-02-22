@@ -19,9 +19,9 @@ namespace homework
 
         private void Dish_CheckedChanged(object sender, EventArgs e)
         {
-            // Way 1
+            // Way 1 //
 
-            if (sender is CheckBox cb)
+            if (sender is CheckBox cb) 
             {
                 foreach (var item in CafeGroupBox.Controls)
                 {
